@@ -1,0 +1,12 @@
+#api call for creating user account
+###
+POST http://127.0.0.1:8000/accounts/register/ 
+Content-Type: application/json
+
+{
+    "username":"femina",
+    "password":"femina@123",
+    "email":"femina@gmail.com",
+    "phone": 9539220642,
+    "role":"trainer"
+}
